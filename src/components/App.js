@@ -4,8 +4,7 @@ import youtube from '../api/youtube';
 import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
 
-// const KEY = 'AIzaSyBWFcOi8NDRzDJhiQjKchDJev2mdXOJ4xE';
-const KEY = process.env.YOUTUBE_API_KEY;
+const KEY = 'AIzaSyBWFcOi8NDRzDJhiQjKchDJev2mdXOJ4xE';
 
 class App extends Component {
   state = {
